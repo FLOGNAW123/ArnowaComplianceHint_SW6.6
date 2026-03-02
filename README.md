@@ -3,7 +3,7 @@ Ermöglicht das Pflegen von Compliance-Hinweisen für Produkte im Admin:
 ![Admin-Beispielbild](img/ADMIN.png)
 
 Hinweis wird dann auf Produktdetailseite angezeigt:
-![PDS-Beispielbild](img/lPDS.png)
+![PDS-Beispielbild](img/PDS.png)
 
 ## Installation
 

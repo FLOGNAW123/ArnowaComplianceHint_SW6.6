@@ -1,5 +1,5 @@
 # ArnowaComplianceHint
-Ermöglicht das Flegen von Compliance-Hinweisen für Produkte im Admin:
+Ermöglicht das Pflegen von Compliance-Hinweisen für Produkte im Admin:
 ![Admin-Beispielbild](img/ADMIN.png)
 
 Hinweis wird dann auf Produktdetailseite angezeigt:

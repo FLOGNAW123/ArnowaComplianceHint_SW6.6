@@ -1,0 +1,17 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget.html.twig' %}
+
+{% block buy_widget_buy_container %}
+
+    {% set hint = page.extensions.arnowaComplianceHint ?? null %}
+
+    {% if hint and hint.hintRequired and hint.hintText is not empty %}
+        <div class="arnowa-compliance-hint" role="alert">
+            <div class="arnowa-compliance-hint__text">
+                {{ hint.hintText|raw }}
+            </div>
+        </div>
+    {% endif %}
+
+    {{ parent() }}
+
+{% endblock %}

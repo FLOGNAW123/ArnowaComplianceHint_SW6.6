@@ -1,0 +1,26 @@
+{
+    "name": "arnowa/compliance-hint",
+    "description": "(SW 6.6) Adds product-specific compliance hints for ARNOWA health & medical products",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "1.1.0",
+    "autoload": {
+        "psr-4": {
+            "Arnowa\\ComplianceHint\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": ">=6.6.0 <6.8.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Arnowa\\ComplianceHint\\ArnowaComplianceHint",
+        "label": {
+            "de-DE": "(SW 6.6) Produkt-Compliance-Hinweis",
+            "en-GB": "(SW 6.6) Product Compliance Hint"
+        },
+        "description": {
+            "de-DE": "Pflege und Anzeige produktspezifischer Compliance-Hinweise",
+            "en-GB": "Manage and display product-specific compliance hints"
+        }
+    }
+}

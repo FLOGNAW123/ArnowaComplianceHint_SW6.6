@@ -1,0 +1,19 @@
+<sw-card title="Compliance Hinweis">
+
+    <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px; cursor: pointer;">
+        <input
+            type="checkbox"
+            :checked="localHintRequired"
+            @change="localHintRequired = $event.target.checked"
+        />
+        Hinweis aktivieren
+    </label>
+
+    <sw-text-editor
+        v-if="localHintRequired"
+        :value="localHintText"
+        @update:value="onTextInput"
+        placeholder="Hinweis eingeben..."
+    />
+
+</sw-card>
